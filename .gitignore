@@ -1,0 +1,14 @@
+# 构建输出
+bin/
+obj/
+dist/
+发布/
+*.zip
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# 日志
+*.log
