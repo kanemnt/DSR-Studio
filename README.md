@@ -1,4 +1,4 @@
-# DSR Studio —— DARK SOULS: REMASTERED 七域修改器
+# DSR Studio —— DARK SOULS: REMASTERED
 
 面向 **DARK SOULS: REMASTERED** 的统一修改工作台，界面参照 VS Code（深色、活动栏、侧栏、标签页、状态栏）。
 
@@ -110,7 +110,6 @@ dotnet build DSRStudio.csproj -c Release
 - 模型域：FLVER 容器回包（替换模型，版本/计数校验 + 快照 + 回读校验）、结构关系图、骨骼自校验、材质/MTD/贴图信息
 - 地图域：区域（POINT）坐标写回（与部件同套校验路径）
 - 动画域：TAE 动画清单（动画 ID / 事件数 / 偏移，8 字节步长自校验）
-- 快捷修改（集成自 DSRModifier）：附魔全开 / 法术次数 999 / 武器补正统一 / 防具韧性 ×2
 - CLI 全 headless：--open / --param / --param-set / --msb-set / --msb-point-set / --msb-tab / --tex-export / --tex-replace / --evd-instr / --bnd-replace / --quick / --flver-tree / --tae
 
 **v0.5.0**
