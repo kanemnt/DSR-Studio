@@ -60,28 +60,6 @@
 
 ---
 
-## 四点六、快捷修改（集成自 DSRModifier）
-
-菜单「工具(_T) → 快捷修改（DSRModifier）」打开面板，四个一键操作：
-
-| 按钮 | 作用 |
-|---|---|
-| 附魔全开 | 全部武器 isEnhance = 1 |
-| 法术次数 999 | MAGIC_PARAM_ST.maxQuantity = 999 |
-| 武器补正统一 99 | correctStrength/Agility/Magic/Faith = 99 |
-| 防具韧性 ×2 | EQUIP_PARAM_PROTECTOR_ST.saDurability × 2 |
-
-每个操作都走统一写路径：快照 → 写入 → 回读校验 → 失败回滚；
-执行日志显示改动行数与缺失字段。命令行等价：`--quick <enhance|magic999|correct99|sa2x>`。
-
-## 四点五、改建模的正确姿势
-
-本工具**不承担几何编辑**（那是 Blender / 3ds Max 的事），只负责安全地塞回去：
-
-
-
-注意：**改模型不会改碰撞**（Havok  独立），视觉变大不等于判定变大。
-
 ## 五、已知边界
 
 | 项 | 说明 |
