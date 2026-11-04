@@ -1,4 +1,4 @@
-# DSR Studio
+# DSR Studio —— DARK SOULS: REMASTERED 七域修改器
 
 面向 **DARK SOULS: REMASTERED** 的统一修改工作台，界面参照 VS Code（深色、活动栏、侧栏、标签页、状态栏）。
 
